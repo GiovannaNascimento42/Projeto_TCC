@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<library path="meu_pid_controller">
+
+  <class
+    type="meu_pid_controller::PIDController"
+    base_class_type="nav2_core::Controller">
+
+    <description>
+      Controlador PID customizado para Nav2.
+    </description>
+
+  </class>
+
+</library>

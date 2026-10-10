@@ -66,3 +66,26 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# ROS 2 / colcon
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Dados experimentais: não versionar CSVs por enquanto
+*.csv
+
+# Resultados gerados
+experiments/results/*
+!experiments/results/.gitkeep
+
+experiments/plots/*
+!experiments/plots/.gitkeep

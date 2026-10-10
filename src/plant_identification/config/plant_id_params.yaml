@@ -1,0 +1,16 @@
+plant_identifier:
+  ros__parameters:
+    armed: false
+    control_frequency: 50.0
+
+    linear_step: 0.08
+    linear_duration: 5.0
+    linear_recovery: 3.0
+
+    between_time: 2.0
+
+    angular_step: 0.20
+    angular_duration: 5.0
+    angular_recovery: 3.0
+
+    output_dir: "~/plant_experiments"

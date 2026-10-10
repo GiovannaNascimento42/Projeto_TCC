@@ -1,0 +1,27 @@
+pid_position_controller:
+  ros__parameters:
+
+    control_frequency: 20.0
+
+    kp_linear: 0.8
+    ki_linear: 0.0
+    kd_linear: 0.0
+
+    kp_angular: 1.5
+    ki_angular: 0.0
+    kd_angular: 0.0
+
+    max_linear_velocity: 0.10
+    max_angular_velocity: 0.40
+
+    position_tolerance: 0.05
+    angle_tolerance: 0.05
+
+    integral_limit_linear: 0.5
+    integral_limit_angular: 0.5
+
+    goal_distance: 1.0
+
+    # IMPORTANTE:
+    # começa sempre parado
+    armed: false
